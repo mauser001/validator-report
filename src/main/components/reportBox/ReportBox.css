@@ -1,0 +1,17 @@
+.header{
+    padding: 10px;
+}
+
+.report-label{
+    font-weight: bold;
+    padding-right: 10px;
+    color: blue;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.date.expired {
+    color: red;
+}

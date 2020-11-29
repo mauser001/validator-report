@@ -1,0 +1,33 @@
+.validator-box {
+    border: solid 1px;
+    border-radius: 6px;
+    box-shadow: rgba(0,0,0,0.4) 6px 6px 10px 0px;
+    border-color: green;
+    margin: 10px;
+    padding: 10px;
+}
+.value {
+    font-weight: bold;
+}
+.validator-box:not(.active), .validator-box:not(.voted) {
+    border-color: red;
+} 
+.validator-box.invalid .state {
+    color: red;
+} 
+.validator-box.active .state {
+    color: green;
+} 
+.vote {
+    color: green;
+} 
+.validator-box.not-voted .vote {
+    color: red;
+}
+.validator-box.exiting {
+    opacity: 0.6;
+}
+.validator-box.exited {
+    opacity: 0.3;
+} 
+
