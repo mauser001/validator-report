@@ -2,11 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\main",
     "\\src\\main\\components",
     "\\src\\main\\components\\reportBox",
     "\\src\\main\\components\\reportBox\\components",
     "\\src\\main\\components\\reportBox\\components\\validatorBox"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\src\\main\\components\\reportBox\\components\\validatorBox\\ValidatorBox.js",
   "PreviewInSolutionExplorer": false
 }

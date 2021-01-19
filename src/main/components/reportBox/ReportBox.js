@@ -19,7 +19,7 @@ class ReportBox extends React.Component {
 		return (
 			<div>
 				<div className="header">
-					<span className="report-label" >{this.props.data.Label}</span>
+					<span className="report-label" >{this.props.data.Label}: {this.props.data.Version}</span>
 					<span>Last updated: </span>
 					<span className={this.checkDateClass(this.props.data.TS)} > {new Date(this.props.data.TS).toLocaleString()}</span>
 				</div>
