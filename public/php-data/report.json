@@ -1,1 +1,1 @@
-{"mausersValidatorData":{"TS":1609590724010,"Label":"Mausers Validator","Validators":[{"StateText":"Active","Balance":32.427,"CurrentEffectiveBalance":32,"CorrectlyVoted":true,"CorrectlyVotedTarget":true,"CorrectlyVotedSource":true,"CorrectlyVotedHead":true,"InclusionDistance":1}]}}
+{"mausersValidatorData":{"TS":1609590724010,"Label":"Mausers Validator","Validators":[{"StateText":"Active","Balance":32.427,"CurrentEffectiveBalance":32,"CorrectlyVoted":true,"CorrectlyVotedTarget":true,"CorrectlyVotedSource":true,"CorrectlyVotedHead":true}]}}

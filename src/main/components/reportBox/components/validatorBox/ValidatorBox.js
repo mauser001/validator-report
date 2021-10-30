@@ -30,9 +30,6 @@ class ValidatorBox extends React.Component {
 				<div>
 					State: <span className="state value">{this.props.data.StateText}</span>
 				</div>
-				<div>
-					Inclusion distance: <span className="state value">{this.props.data.InclusionDistance}</span>
-				</div>
 				{this.props.data.CorrectlyVoted ?
 					(<div>
 						Correctly voted: <span className="vote value">yes</span>
