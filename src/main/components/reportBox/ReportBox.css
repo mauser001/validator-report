@@ -1,17 +1,82 @@
-.header{
-    padding: 10px;
+.header {
+  padding: 10px;
 }
 
-.report-label{
-    font-weight: bold;
-    padding-right: 10px;
-    color: blue;
+.report-label {
+  font-weight: bold;
+  padding-right: 10px;
+  color: blue;
 }
 
 .date {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .date.expired {
-    color: red;
+  color: red;
+}
+
+.report-status {
+  margin-top: 8px;
+  border-left: 2px solid #d9d9d9;
+  padding-left: 8px;
+}
+
+.status-row {
+  font-size: 0.92rem;
+  line-height: 1.3;
+  margin-top: 3px;
+}
+
+.status-label {
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.status-value {
+  font-weight: bold;
+}
+
+.status-value.healthy,
+.status-value.synced {
+  color: #1a7f37;
+}
+
+.status-value.unhealthy,
+.status-value.syncing,
+.status-value.unavailable {
+  color: #9a6700;
+}
+
+.eth1-progress {
+  margin-left: 6px;
+  color: #6b6b6b;
+  font-size: 0.88rem;
+}
+
+.controller-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.controller-status {
+  word-break: break-word;
+}
+
+.controller-status-details {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.controller-status-details summary {
+  cursor: pointer;
+  color: #333;
+}
+
+.controller-status-details div {
+  margin-top: 4px;
+  color: #333;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
